@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font-size: 20px;
+  font-family: Arial;
+  background: white; }
+
+.contenedor {
+  width: 85%;
+  margin: auto; }
+
+header {
+  background: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden; }
+
+.logo {
+  min-width: 250px;
+  width: 250px;
+  padding: 40px 20px 40px 90px;
+  border-right: 2px solid black;
+  overflow: hidden; }
+
+header .logo figure img {
+  width: 105%; }
+header .mail {
+  width: 200px;
+  align-self: flex-start;
+  padding: 10px; }
+  header .mail p {
+    font-family: "Fjalla One", sans-serif;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: #C71A1A; }
+  header .mail input {
+    display: block; }
+    header .mail input[type="email"] {
+      width: 100%;
+      min-width: 150px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      border: 1px solid grey; }
+    header .mail input[type="submit"] {
+      border: 1px solid red;
+      width: 60px;
+      margin: 5px auto;
+      padding: 1px;
+      font-size: 15px;
+      border-radius: 2px;
+      background-color: #C71A1A;
+      color: white;
+      cursor: pointer; }
+    header .mail input:hover {
+      background-color: white;
+      border: 1px solid red;
+      color: red; }
+    header .mail input[type="email"]:focus {
+      border: 2px solid black; }
+header .menu {
+  align-self: flex-end;
+  background-color: white;
+  padding: 20px; }
+  header .menu .redes {
+    width: 500px;
+    padding: 100px;
+    align-self: flex-end;
+    margin-left: 70px; }
+    header .menu .redes a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      padding: 5px 10px;
+      float: right;
+      background-color: #C71A1A;
+      margin: 7px;
+      border-radius: 4px; }
+      header .menu .redes a:hover {
+        background-color: red;
+        box-shadow: 3px 5px 5px grey; }
+  header .menu ul li {
+    display: inline-block;
+    padding: 7px; }
+    header .menu ul li a {
+      text-decoration: none;
+      font-size: 25px;
+      color: #C71A1A;
+      font-family: "Permanent Marker", cursive;
+      padding: 2px; }
+
+.noticias {
+  width: 100%;
+  height: 200px; }
+
+.tour {
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 50px 80px 10px; }
+  .tour .titulo {
+    font-family: "Permanent Marker", cursive;
+    color: #C71A1A;
+    font-size: 150px;
+    z-index: -2; }
+  .tour p {
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 30px; }
+  .tour div {
+    text-align: center; }
+    .tour div a {
+      text-decoration: none;
+      padding: 5px;
+      color: black;
+      border: 2px solid black;
+      font-family: "Oswald", sans-serif; }
+
+.videos {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 90px 0px 90px 0px;
+  align-items: center; }
+  .videos .video-clip {
+    width: 60%;
+    align-items: flex-end; }
+  .videos img {
+    width: 45%; }
+  .videos .video-clip iframe {
+    width: 100%; }
+  .videos .video-clip p {
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    color: #C71A1A; }
+
+.imagenes {
+  width: 100%; }
+
+.merch {
+  width: 100%;
+  background-image: url("../img/shop.jpg");
+  background-repeat: no-repeat;
+  padding: 300px 50px 300px 50px;
+  display: flex;
+  text-align: center; }
+
+footer {
+  width: 100%;
+  padding: 40px;
+  background: white;
+  display: flex;
+  justify-content: center; }
+  footer .mail2 {
+    padding: 10px 10px 20px 30px;
+    width: 60%; }
+    footer .mail2 p {
+      color: #C71A1A;
+      margin-bottom: 16px;
+      font-family: "Permanent Marker", cursive;
+      font-size: 30px; }
+    footer .mail2 input[type="email"] {
+      width: 60%;
+      padding: 15px 0px 15px 0px;
+      background-color: white;
+      border: 3px solid black;
+      font-family: "Fjalla One", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      margin-right: 10px; }
+    footer .mail2 input[type="submit"] {
+      width: 30%;
+      padding: 15px 0px 15px 0px;
+      background-color: white;
+      border: 3px solid black;
+      font-family: "Fjalla One", sans-serif;
+      font-size: 20px;
+      color: grey;
+      cursor: pointer; }
+      footer .mail2 input[type="submit"]:hover {
+        box-shadow: 8px 8px 5px grey;
+        color: black; }
+  footer .redes2 {
+    min-width: 50%;
+    padding: 10px 30px 26px 20px; }
+    footer .redes2 p {
+      color: #C71A1A;
+      margin-bottom: 25px;
+      font-family: "Permanent Marker", cursive;
+      font-size: 30px; }
+    footer .redes2 a {
+      text-decoration: none;
+      color: #000;
+      font-size: 30px;
+      padding: 14px 20px 14px 20px;
+      background-color: #C71A1A;
+      margin: 10px;
+      border-radius: 2px;
+      text-align: center; }
+      footer .redes2 a:hover {
+        background-color: red;
+        box-shadow: 3px 5px 5px grey; }
+
+.copy {
+  width: 100%;
+  padding: 30px;
+  background-color: #D4D4D4;
+  text-align: center; }
+  .copy p {
+    font-family: Arial; }
+
+/*# sourceMappingURL=style1.css.map */

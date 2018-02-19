@@ -1,0 +1,397 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing : border-box;
+}
+
+body{
+	font-size: 20px;
+	font-family: Arial; 
+	background: white;
+
+}
+
+
+
+
+
+header{
+
+width: 100%;
+background-color: none;
+overflow: hidden;
+display: inline-block;
+margin: 2px auto;
+position: fixed;
+
+
+}
+
+header .logo{
+	padding:  3px 0px;
+	width: 25%;
+	padding: 65px 0px 70px 0px;
+	background-color: rgba( 255, 255, 255, 0.9);
+	float: left;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	border-right: 4px solid grey ;
+	background-size: 160px 132px;
+
+
+
+
+}
+
+ header .contenido{
+
+	width: 75%;
+
+
+	float: right;
+
+
+
+
+}
+
+header .contenido nav{
+
+	width: 100%;
+	font-family: 'Permanent Marker', cursive;
+
+	
+	background-color: rgba(255, 255, 255, 0.9);
+	
+
+
+}
+header .contenido nav ul{
+
+text-align: center;
+margin-left: -26px;
+
+
+
+}
+
+header .contenido nav ul li {
+
+	display: inline-block;
+	text-align: center;
+	margin-right: -3.5px;
+	
+	
+
+}
+
+header .contenido .redes{
+
+	width: 100%;
+	
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: right;
+	padding: 11px 30px 10px 10px;
+	padding-bottom: 55px;
+
+}
+header .contenido nav ul li a{
+
+	list-style: none;
+	font-size: 28px;
+	text-decoration: none;
+	color: rgb(188, 25, 8);
+	margin: 0px 25px;
+
+
+
+
+}
+
+header .contenido nav ul li a:hover{
+
+	color: red;
+	
+}
+
+header .contenido .redes a{
+	color: white;
+	font-size: 18px;
+	margin: 15.3px;
+	text-decoration: none;
+	padding: 8px 8.5px 6px 8.1px;
+	background-color: rgb(188, 25, 8);
+	border-radius: 3px;
+
+}
+header .contenido .redes a:hover{
+	background-color: red;
+	box-shadow: 3px 5px 5px grey;
+	color: black;
+}
+
+.contenedor{
+	width: 80%;
+	margin: 10px auto;
+
+}
+.espacio{
+	width: 100%;
+	padding: 100px;
+	
+	background-color: white;
+}
+
+
+.galeria-noticias{
+	width: 100%;
+	display: flex;	
+	flex-direction: column;
+
+
+
+}
+.galeria-noticias .read{
+
+	text-decoration: none;
+	color: white;
+	margin: 500px;
+	padding: 5px;
+	background-color: red;
+	font-family: 'Oswald', sans-serif;
+}
+
+.galeria-noticias .noticia1{
+	width: 100%;
+	margin-bottom: 50px;
+	
+	overflow: hidden;
+	box-shadow: 0px 3px 5px grey;
+	background-color: black;
+
+
+}
+.galeria-noticias .noticia1  .img-noticia1{
+
+	width: 30%;
+    padding: 160px;
+ 
+    float: left;
+    background-image: url(../img/live.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.galeria-noticias .noticia1 .text-noticia1{
+	width: 70%;
+	padding-left: 10px;
+	background-color: black;
+	float: right;
+	padding: 29.9px;
+	margin-bottom: 5px;
+
+}
+
+.galeria-noticias .noticia1 .text-noticia1 h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-top: 5px;
+
+}
+.galeria-noticias .noticia1 .text-noticia1 p{
+	font-family: arial;
+	color: white;
+	margin-bottom: 31px;
+
+}
+
+.galeria-noticias .noticia1 .fecha{
+
+	
+	color: white;
+    font-weight: bolder;
+	background-color: rgb(188, 25, 8);
+	display: inline-block;
+	padding: 2px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+
+
+
+.galeria-noticias .noticia2{
+	width: 100%;
+	margin-bottom: 50px;
+	box-shadow: 0px 3px 5px grey;
+	overflow: hidden;
+
+
+}
+.galeria-noticias .noticia2  .img-noticia2{
+
+	width: 30%;
+    padding: 160px;
+ 
+    float: left;
+    background-image: url(../img/live.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.galeria-noticias .noticia2 .text-noticia2{
+	width: 70%;
+	padding-left: 10px;
+	background-color: white;
+	float: right;
+	padding: 30px;
+	margin-bottom: 5px;
+
+}
+
+.galeria-noticias .noticia2 .text-noticia2 h1{
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	margin-top: 5px;
+
+}
+.galeria-noticias .noticia2 .text-noticia2 p{
+	font-family: arial;
+	color: black;
+	margin-bottom: 31px;
+
+}
+
+.galeria-noticias .noticia2 .fecha{
+
+	
+	color: white;
+    font-weight: bolder;
+	background-color: rgb(188, 25, 8);
+	display: inline-block;
+	padding: 2px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+
+.contenedor .container{
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	padding: 90px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+
+}
+
+footer .mail2{
+	padding: 10px 10px 20px 30px;
+	min-width: 500px;
+}
+
+footer .mail2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+}
+
+footer .mail2 input[type="email"]{
+
+  width: 70%;
+ padding: 15px 0px 15px 0px;
+ background-color: white;
+ border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ margin-right: 10px;
+
+}
+
+ footer .mail2 input[type="submit"]{
+
+width: 25%;
+padding: 15px 0px 15px 0px;
+background-color: white;
+border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ color: grey;
+ cursor: pointer;
+
+ }
+
+ footer .mail2 input[type="submit"]:hover{
+box-shadow: 8px 8px 5px grey;
+color: black;
+
+
+
+ }
+
+
+footer .redes2{
+    min-width: 500px;
+	padding: 10px 30px 26px 88px;
+
+}
+
+footer .redes2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 25px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+    
+}
+
+footer .redes2 a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 14px 20px 10px 20px;
+	background-color: rgb(188, 25, 8);
+	margin: 5px;
+	border-radius: 2px;
+	text-align: center;
+
+}
+
+footer .redes2 a:hover{
+	background-color: red;
+	box-shadow: 3px 5px 5px grey;
+	color: black;
+}
+
+
+
+.copy{
+	width: 100%;
+	padding: 30px;
+	background-color: #D4D4D4;
+	text-align: center;
+
+}
+.copy p{
+	
+
+	font-family: Arial;
+
+	
+
+}

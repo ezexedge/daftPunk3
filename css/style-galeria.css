@@ -1,0 +1,429 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing : border-box;
+}
+
+body{
+	font-size: 20px;
+	font-family: Arial; 
+	background: white;
+
+}
+
+
+
+
+
+header{
+
+width: 100%;
+background-color: none;
+overflow: hidden;
+display: inline-block;
+margin: 5px auto;
+position: fixed;
+
+
+}
+
+header .logo{
+	padding:  5px 0px;
+	width: 25%;
+	padding: 85px 0px 85px 0px;
+	background-color: rgba( 255, 255, 255, 0.9);
+	float: left;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	border-right: 5px solid grey ;
+	background-size: 200px 165px;
+
+
+
+
+}
+
+ header .contenido{
+
+	width: 75%;
+
+
+	float: right;
+
+
+
+
+}
+
+header .contenido nav{
+
+	width: 100%;
+	font-family: 'Permanent Marker', cursive;
+
+	
+	background-color: rgba(255, 255, 255, 0.9);
+	
+
+
+}
+header .contenido nav ul{
+
+text-align: center;
+padding-bottom: 8px;
+
+
+
+}
+
+header .contenido nav ul li {
+
+	display: inline-block;
+	text-align: center;
+	
+	
+
+}
+
+header .contenido .redes{
+
+	width: 100%;
+	
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: right;
+	padding: 15px;
+	padding-bottom: 67px;
+}
+header .contenido nav ul li a{
+
+	list-style: none;
+	font-size: 35px;
+	text-decoration: none;
+	color: rgb(188, 25, 8);
+	margin: 0px 30px;
+
+
+
+}
+
+header .contenido nav ul li a:hover{
+
+	color: red;
+	
+}
+
+header .contenido .redes a{
+	color: white;
+	font-size: 23px;
+	margin: 20px;
+	text-decoration: none;
+	padding: 10px 10px 8px 10px;
+	background-color: rgb(188, 25, 8);
+	border-radius: 3px;
+.contenedor{
+	width: 80%;
+	margin: 10px auto;
+
+
+}
+header .contenido .redes a:hover{
+	background-color: red;
+	box-shadow: 3px 5px 5px grey;
+	color: black;
+}
+
+.contenedor{
+	width: 80%;
+	margin: 10px auto;
+
+}
+.espacio{
+	width: 100%;
+	padding: 100px;
+	
+	background-color: white;
+}
+
+.noticias{
+
+	width: 100%;
+	background-color: white;
+	padding-left: 650px;
+	overflow: hidden;
+	margin-bottom: 60px;
+
+}
+
+
+.tour{
+	
+	width: 100%;
+	overflow: hidden;
+	padding: 80px 50px 120px 10px;
+	margin-bottom: 50px;
+
+}
+
+.tour   .titulo{
+	
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(188, 25, 8);
+    font-size: 150px;
+    z-index: -2;
+}
+
+.tour p{
+
+margin-top: -90px;
+font-size: 50px;
+font-weight: bolder;
+font-family: 'Oswald', sans-serif;
+margin-bottom: 70px;
+}
+
+.tour div{
+
+text-align: center;
+}
+.tour div a{
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	border: 2px solid black;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+
+
+
+ .fotos{
+
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 150px;
+	overflow: hidden;
+	background-color: rgb(188, 25, 8);
+
+}
+
+.fotos .uno{
+
+	width: 50%;
+	
+	background-image: url(../img/produccion.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 280px 0px;
+	float: right;
+	text-align: center;
+	opacity: 0.7;
+
+}
+
+.fotos .dos{
+	width: 50%;
+	background-image: url(../img/live.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 280px 0px;
+	float: left;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.fotos .uno p{
+	color: white;
+	  font-family: 'Permanent Marker', cursive;
+	  font-size: 35px;
+	  padding: 15px;
+	  display: inline-block;
+	  border:  3px solid white;
+	  cursor: pointer;
+}
+.fotos .dos p {
+	color: white;
+	  font-family: 'Permanent Marker', cursive;
+	  font-size: 35px;
+	  padding: 15px;
+	  display: inline-block;
+	  border:  3px solid white;
+	  cursor: pointer;
+
+
+	}
+
+	.fotos .uno:hover{
+		opacity: 1;
+	}
+	.fotos .dos:hover{
+		opacity: 1;
+	}
+
+.merch{
+
+	width: 100%;
+	background-image: url('../img/shop3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 85px 0px;
+	overflow: hidden;
+	text-align: center;
+	
+	
+
+
+}
+
+
+
+
+ .merch  h1{
+
+ 
+
+ color: white;
+ margin: auto;
+ display: inline-block;
+ padding: 10px;
+ border: 5px solid white;
+ margin: 230px;
+font-family: 'Permanent Marker', cursive;
+cursor: pointer;
+
+}
+.merch h1:hover{
+color : red;
+}
+.video{
+	width: 100%;
+	text-align: center;
+	 font-family: 'Permanent Marker', cursive;
+	margin-top: 80px;
+}
+
+.video img{
+
+	width: 57%;
+
+
+}
+.video p{
+	font-size: 100px;
+	color: rgb(188, 25, 8);
+	z-index: -2;
+
+ 
+
+}
+
+
+footer{
+	width: 100%;
+	padding: 90px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+footer .mail2{
+	padding: 10px 10px 20px 30px;
+	min-width: 500px;
+}
+
+footer .mail2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+}
+
+footer .mail2 input[type="email"]{
+
+  width: 70%;
+ padding: 15px 0px 15px 0px;
+ background-color: white;
+ border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ margin-right: 10px;
+
+}
+
+ footer .mail2 input[type="submit"]{
+
+width: 25%;
+padding: 15px 0px 15px 0px;
+background-color: white;
+border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ color: grey;
+ cursor: pointer;
+
+ }
+
+ footer .mail2 input[type="submit"]:hover{
+box-shadow: 8px 8px 5px grey;
+color: black;
+
+
+
+ }
+
+
+footer .redes2{
+    min-width: 500px;
+	padding: 10px 30px 26px 88px;
+
+}
+
+footer .redes2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 25px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+    
+}
+
+footer .redes2 a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 14px 20px 10px 20px;
+	background-color: rgb(188, 25, 8);
+	margin: 5px;
+	border-radius: 2px;
+	text-align: center;
+
+}
+
+footer .redes2 a:hover{
+	background-color: red;
+	box-shadow: 3px 5px 5px grey;
+	color: black;
+}
+
+.copy{
+	width: 100%;
+	padding: 30px;
+	background-color: #D4D4D4;
+	text-align: center;
+
+}
+.copy p{
+	
+
+	font-family: Arial;
+
+	
+
+}

@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing : border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: Arial; 
+
+    
+
+}
+
+
+
+header{
+    width: 80%;
+        background-color: white;
+    display: flex;
+    margin:  -10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    margin-left: 10%;
+    
+    
+    
+}
+header .logo a img{
+
+height: 150px;
+margin: 0px auto;
+padding: 4px;
+
+
+}
+header .logo{
+
+    width: 25%;
+
+    
+}
+
+header .contenido{
+
+    width: 75%;
+
+}
+
+header .contenido nav li{
+    display: inline-block;
+}
+
+
+
+header .contenido .redes{
+
+padding: 15px 0px 0px 0px;
+margin-bottom: 53px;
+transition: all 0.5s;
+
+text-align: right;
+
+
+}
+header .contenido .redes a{
+margin: 0px 8px;
+display: inline-block;
+color: white;
+font-size: 22px;
+text-decoration: none;
+transition: all 0.5s;
+padding: 3.5px 6px;
+background-color:  rgb(188, 25, 8);
+border-radius: 3px;
+
+}
+
+header .contenido .redes a:hover{
+
+background-color :  red;
+    box-shadow: 3px 5px 5px grey;
+    color: black;
+    
+    
+}
+header .contenido nav{
+    float: right;
+    margin-right: 1px;
+    transition: all 0.5;
+
+    
+}
+header .contenido nav ul li{
+    
+  margin: 0px 9px;
+  padding: 2px;
+
+}
+header .contenido nav ul li a{
+    color: rgb(188, 25, 8);
+        font-family: 'Permanent Marker', cursive;
+        font-size: 27px;
+        text-decoration: none;
+        transition: all 1s;
+}
+header .contenido nav ul li a:hover{
+color: black;
+}
+header .contenido nav ul .menu {
+    position: relative;
+    display: inline-block;
+    
+    padding: 5px;
+        
+}
+
+header .contenido nav ul .menu .submenu{
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+
+
+
+
+
+}
+
+header .contenido nav ul .menu .submenu li {
+    padding: 10px 20px;
+    background-color: white;
+    margin-left: -17px;
+    text-align: center;
+    color: rgb(188, 25, 8);
+    font-family: 'Permanent Marker', cursive;
+    transition: all 1s;
+
+
+}
+
+header .contenido nav ul .menu .submenu li a{
+
+    font-size: 20px;
+
+}
+
+header .contenido nav ul .menu .submenu li:hover{
+    color: black;
+}
+header .contenido nav ul .menu .submenu .live{
+
+    width: 100px;
+
+}
+
+header .contenido nav ul .menu .submenu .back{
+    border-top: 1px solid black;
+    width: 100px;
+}
+
+header .contenido nav ul .menu:hover .submenu{
+    display: block;
+
+}
+
+
+
+.contenedor{
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+
+}
+.espacio{
+    width: 100%;
+    padding: 95px;
+    
+    background-color: white;
+}
+ .merch{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.merch div{
+
+width: 40%;
+background-color: black;
+border-radius: 7px;
+margin: 20px;
+transition: all 1s ease;
+
+}
+
+.merch div a{
+	font-size: 30px;
+	color: rgb(188, 25, 8);
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 40px 10px 40px 10px;
+	font-family: 'Permanent Marker', cursive;
+	transition: all 1s ease;
+	
+
+}
+
+
+
+.shirt:hover , .hoddie:hover , .music:hover , .sticket:hover , .poster:hover , .accesorio:hover{
+        -webkit-animation: shirt 1s ease;
+        animation: shirt 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        
+        background-color: rgb(188, 25, 8);
+}
+
+.merch div a:hover{
+	color: black;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    padding: 70px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+
+footer .mail2{
+    padding: 10px 10px 20px 30px;
+    min-width: 400px;
+}
+
+footer .mail2 p{
+    color: rgb(188, 25, 8);
+    margin-bottom: 16px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+footer .mail2 input[type="email"]{
+
+  width: 70%;
+ padding: 15px 0px 15px 0px;
+ background-color: white;
+ border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ margin-right: 10px;
+
+}
+
+ footer .mail2 input[type="submit"]{
+
+width: 25%;
+padding: 15px 0px 15px 0px;
+background-color: white;
+border: 3px solid black;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+ color: grey;
+ cursor: pointer;
+ transition: all 0.5s;
+
+ }
+
+ footer .mail2 input[type="submit"]:hover{
+box-shadow: 8px 8px 5px grey;
+color: black;
+
+
+
+ }
+
+
+footer .redes2{
+    min-width: 400px;
+    padding: 10px 30px 26px 88px;
+
+}
+
+footer .redes2 p{
+    color: rgb(188, 25, 8);
+    margin-bottom: 16px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    
+}
+
+footer .redes2 a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 14px 20px 10px 20px;
+    background-color: rgb(188, 25, 8);
+    margin: 5px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.5s;
+
+}
+
+footer .redes2 a:hover{
+    background-color: red;
+    box-shadow: 3px 5px 5px grey;
+    color: black;
+}
+
+.copy{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.copy p{
+    
+    
+    font-family: Arial;
+
+    
+
+}
+
+@-webkit-keyframes shirt 
+{
+
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+
+
+}
+@keyframes shirt
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+@-webkit-keyframes hoddie
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes hoddie
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
