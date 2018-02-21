@@ -891,31 +891,48 @@ footer .redes2 a{
 
 
  
- @media (min-width: 768px) { 
+  @media only screen and (max-width: 600px) and (min-width: 850px )  { 
 
 	header{
 	
-	background-color: red;
+	display: none;
 
 	}
+	.espacio{
+ 		background-color: red;
+ 		padding: 20px;
+ 	}
+ 	.navbar{
+ 		display: block;
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+		margin-top: -10px;
+ 	}
+
+ 	.navbar .navbar-header .navbar-brand{
+		
+		color: rgb(188, 25, 8);
+		font-family: 'Permanent Marker', cursive;
+		font-size: 25px;
+
+ 	}
+
+ 	.contenedor{
+
+ 		width: 100%;
+
+ 	}
 
  }
      
     
- @media (min-width: 992px) { 
+ @media only screen and (max-width: 1200px) and (min-width: 950px ) { 
 
-	header{
-
-		background-color: orange;
+	.navbar{
+		display: none;
 	}
 
   }
      
  
- @media (min-width: 1200px) {
-
- 	header{
- 		background-color: black;
- 	}
-
- }
