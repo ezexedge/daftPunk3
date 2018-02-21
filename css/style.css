@@ -13,6 +13,11 @@ body{
 
 }
 
+.navbar{
+
+	display: none;
+}
+
 
 
 header{
@@ -27,8 +32,17 @@ header{
 	margin-left: 10%;
 	
 	
-	
 }
+
+header input{
+	display: none;
+}
+
+header label{
+	display: none;
+}
+
+
 header .logo a img{
 
 height: 150px;
@@ -166,7 +180,9 @@ header .contenido nav ul .menu:hover .submenu{
 
 }
 
-
+.responsive{
+	display: none;
+}
 
 .contenedor{
 	width: 80%;
@@ -568,3 +584,338 @@ footer .redes2 a:hover{
 
 
 }
+
+
+
+
+ @media only screen and (max-width: 550px) and (min-width: 300px )   { 
+
+ header{
+ 	display: none;
+ 	}
+ 	.espacio{
+ 		background-color: red;
+ 		padding: 20px;
+ 	}
+ 	.navbar{
+ 		display: block;
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+		margin-top: -10px;
+ 	}
+
+ 	.navbar .navbar-header .navbar-brand{
+		
+		color: rgb(188, 25, 8);
+		font-family: 'Permanent Marker', cursive;
+		font-size: 25px;
+
+ 	}
+
+ 	.contenedor{
+
+ 		width: 100%;
+
+ 	}
+ 	.noticias{
+
+ 		width: 100%;
+ 		height: 300px;
+ 	}
+
+	.noticias .container .carousel-inner{
+		height: 300px;
+
+	}
+	.noticias .container .row .col-md-12 #slideshow1 .carousel-inner img{
+		
+		width: 100%;
+		height: 300px;
+
+	}
+	.noticias .container{
+
+margin-left: -4.6%;
+width: 109%;
+
+
+}
+
+.noticias .container .carousel-indicators{
+ display: none;
+}
+
+.noticias .container  p{
+
+
+margin-top: -150px;
+font-size: 15px;
+color: black;
+opacity: 0.6;
+padding: 10px 0px 10px 0px;
+border-radius: 5px;
+background-color: white;
+margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+
+.noticias .container .leer{
+	padding: 10px;
+	background-color: rgb(188, 25, 8);
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: 'Permanent Marker', cursive;
+	transition: all 1.5s ease;
+
+
+}
+.noticias .container a{
+	color: red;
+	 font-family: 'Permanent Marker', cursive;
+
+}
+
+
+
+.tour{
+
+	padding: 30px;
+}
+
+.tour   .titulo{
+	
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(188, 25, 8);
+    font-size: 80px;
+    z-index: -2;
+}
+
+.tour p{
+
+margin-top: -90px;
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Oswald', sans-serif;
+margin-bottom: 40px;
+}
+
+.tour div{
+
+text-align: center;
+}
+
+
+.merch{
+
+	width: 100%;
+	background-image: url('../img/shop3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0px;
+	height: 405px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: -1px;
+	
+
+}
+
+
+ .merch  h1{
+
+ 
+ color: white;
+ 
+ display: inline-block;
+ padding: 10px;
+ border: 5px solid white;
+ margin: -12%;
+font-family: 'Permanent Marker', cursive;
+cursor: pointer;
+transition: all 1s ease;
+
+
+}
+
+.video{
+	width: 100%;
+	background-image: url(../img/textura.jpg);
+	background-repeat: repeat;
+	text-align: center;
+	 font-family: 'Permanent Marker', cursive;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+.video img{
+
+	display: none;
+
+
+}
+.video p{
+	font-size: 40px;
+	color: rgb(188, 25, 8);
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+
+	
+
+ 
+
+}
+.video iframe{
+	width: 80%;
+	height: 200px;
+	margin-bottom: 80px;
+}
+
+
+.fotos{
+
+	width: 100%;
+	margin-bottom: 0px;
+
+	overflow: hidden;
+	background-color: rgb(188, 25, 8);
+
+}
+
+.fotos .uno{
+
+	width: 50%;
+	
+	background-image: url(../img/produccion.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 135px 0px;
+	float: right;
+	text-align: center;
+	opacity: 0.7;
+	transition: all 1s ease;
+
+}
+
+.fotos .dos{
+	width: 50%;
+	background-image: url(../img/live.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 135px 0px;
+	float: left;
+	text-align: center;
+	opacity: 0.7;
+	transition: all 1s ease;
+}
+
+.fotos .uno a{
+	text-decoration: none;
+	color: white;
+	  font-family: 'Permanent Marker', cursive;
+	  font-size: 25px;
+	  padding: 15px;
+	  display: inline-block;
+	  border:  3px solid white;
+	  cursor: pointer;
+}
+.fotos .dos a {
+	text-decoration: none;
+	color: white;
+	  font-family: 'Permanent Marker', cursive;
+	  font-size: 25px;
+	  padding: 15px;
+	  display: inline-block;
+	  border:  3px solid white;
+	  cursor: pointer;
+
+
+	}
+
+	footer{
+		width: 80%;
+	}
+
+	footer .mail2{
+		display: none;
+	}
+
+	footer .redes2{
+    width: 100%;
+	padding: 10px 30px 26px 88px;
+	
+
+}
+
+footer .redes2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	text-align: center;
+    
+}
+
+footer .redes2 a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+	background-color: rgb(188, 25, 8);
+	text-align: center;
+	border-radius: 2px;
+	
+	transition: all 0.5s;
+	width: 100%;
+
+
+}
+
+.copy{
+	margin-top: -40px;
+}
+.copy h5 {
+	font-size: 10px;
+
+}
+
+
+} 
+
+
+
+ 
+ @media (min-width: 768px) { 
+
+	header{
+	
+	background-color: red;
+
+	}
+
+ }
+     
+    
+ @media (min-width: 992px) { 
+
+	header{
+
+		background-color: orange;
+	}
+
+  }
+     
+ 
+ @media (min-width: 1200px) {
+
+ 	header{
+ 		background-color: black;
+ 	}
+
+ }
