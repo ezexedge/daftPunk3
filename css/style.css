@@ -588,7 +588,7 @@ footer .redes2 a:hover{
 
 
 
- @media only screen and (max-width: 550px) and (min-width: 300px )   { 
+ @media only screen and (max-width: 565px)  { 
 
  header{
  	display: none;
@@ -891,24 +891,31 @@ footer .redes2 a{
 
 
  
-  @media only screen and (max-width: 600px) and (min-width: 850px )  { 
+
+     
+    
+ @media only screen and (max-width: 900px) and (min-width: 566px ) { 
 
 	header{
-	
-	display: none;
-
+		display: none;
 	}
-	.espacio{
+
+	 .espacio{
  		background-color: red;
- 		padding: 20px;
+ 		padding: 30px;
  	}
+
+
  	.navbar{
  		display: block;
 		position: fixed;
 		width: 100%;
+		padding: 5px;
 		z-index: 10;
 		margin-top: -10px;
  	}
+
+
 
  	.navbar .navbar-header .navbar-brand{
 		
@@ -918,21 +925,61 @@ footer .redes2 a{
 
  	}
 
- 	.contenedor{
+	.contenedor{
+		width: 100%;
+	}
 
- 		width: 100%;
 
- 	}
+footer{
+		width: 80%;
+	}
 
- }
-     
-    
- @media only screen and (max-width: 1200px) and (min-width: 950px ) { 
-
-	.navbar{
+	footer .mail2{
 		display: none;
 	}
 
+	footer .redes2{
+    width: 100%;
+	padding: 10px 30px 26px 88px;
+	
+
+}
+
+footer .redes2 p{
+	color: rgb(188, 25, 8);
+	margin-bottom: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	text-align: center;
+    
+}
+
+footer .redes2 a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	
+	background-color: rgb(188, 25, 8);
+	text-align: center;
+	border-radius: 2px;
+	
+	transition: all 0.5s;
+	width: 100%;
+
+
+}
+
+.copy{
+	margin-top: -40px;
+}
+.copy h5 {
+	font-size: 15px;
+
+}
+
+
+} 
   }
      
  
