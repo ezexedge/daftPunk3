@@ -979,6 +979,12 @@ footer .redes2 a{
 }
 
 
+.noticias .container .carousel-indicators{
+
+z-index: 2;
+
+}
+
 } 
   }
      
