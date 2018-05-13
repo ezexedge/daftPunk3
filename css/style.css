@@ -457,6 +457,8 @@ color : red;
 	margin-top: 50px;
 }
 
+
+
 footer{
 	width: 100%;
 	padding: 70px;
@@ -517,8 +519,9 @@ color: black;
 
 
 footer .redes2{
-    min-width: 400px;
-	padding: 10px 30px 26px 88px;
+ 	
+	padding: 10px 30px 26px 38px;
+	
 
 }
 
@@ -588,22 +591,17 @@ footer .redes2 a:hover{
 
 
 
- @media only screen and (max-width: 565px)  { 
 
- header{
- 	display: none;
- 	}
+
+ @media only screen and (max-width: 840px)  { 
+
+ 
  	.espacio{
  		background-color: red;
- 		padding: 20px;
+ 		padding: 65px;
+ 		width: 100%;
  	}
- 	.navbar{
- 		display: block;
-		position: fixed;
-		width: 100%;
-		z-index: 10;
-		margin-top: -10px;
- 	}
+ 
 
  	.navbar .navbar-header .navbar-brand{
 		
@@ -613,25 +611,33 @@ footer .redes2 a:hover{
 
  	}
 
+ 	header .contenido nav ul li a{
+ 		font-size: 20px;
+ 	}
+
+	header .logo a img{
+		height: 130px;
+	}
  	.contenedor{
 
- 		width: 100%;
+ 		width: 80%;
 
  	}
  	.noticias{
 
- 		width: 100%;
- 		height: 300px;
+ 		width: 95%;
+ 		height: 400px;
+ 		margin: auto;
  	}
 
 	.noticias .container .carousel-inner{
-		height: 300px;
+		height: 400px;
 
 	}
 	.noticias .container .row .col-md-12 #slideshow1 .carousel-inner img{
 		
 		width: 100%;
-		height: 300px;
+		height: 400px;
 
 	}
 	.noticias .container{
@@ -838,7 +844,7 @@ transition: all 1s ease;
 	}
 
 	footer{
-		width: 80%;
+		width: 100%;
 	}
 
 	footer .mail2{
@@ -847,7 +853,7 @@ transition: all 1s ease;
 
 	footer .redes2{
     width: 100%;
-	padding: 10px 30px 26px 88px;
+	padding: 10px 96px 26px 96px;
 	
 
 }
@@ -894,15 +900,18 @@ footer .redes2 a{
 
      
     
- @media only screen and (max-width: 900px) and (min-width: 566px ) { 
+ @media only screen and (max-width: 766px)  { 
 
 	header{
 		display: none;
 	}
 
 	 .espacio{
- 		background-color: red;
- 		padding: 30px;
+ 	
+ 		padding: 25px;
+ 	}
+ 	.noticias{
+ 		width: 100%;
  	}
 
 
@@ -929,10 +938,11 @@ footer .redes2 a{
 		width: 100%;
 	}
 
-
-footer{
-		width: 80%;
+	footer{
+		width: 100%;
 	}
+
+
 
 	footer .mail2{
 		display: none;
@@ -940,7 +950,7 @@ footer{
 
 	footer .redes2{
     width: 100%;
-	padding: 10px 30px 26px 88px;
+	padding: 10px 33px 26px 28px;
 	
 
 }
