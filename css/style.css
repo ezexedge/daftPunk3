@@ -185,7 +185,7 @@ header .contenido nav ul .menu:hover .submenu{
 }
 
 .contenedor{
-	width: 79%;
+	width: 79% !important;
 	margin: 10px auto;
 	background-color: white;
 
